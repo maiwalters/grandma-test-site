@@ -1,0 +1,326 @@
+/*
+Theme Name: grandmas-child
+Author: Mai Walters
+Description: Blog for WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+
+body{
+    background-color: #f4f4ed;
+    margin-top: none;
+}
+
+.head{
+    border-bottom: 1px solid #dbdbd9;
+    padding-bottom: 5%;
+}
+
+.head img{
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    width: auto;
+}
+
+.home-head img{
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    width: auto;
+}
+
+.home-text{
+    padding: 3%;
+    color: black;
+    font-family: sans-serif;
+    line-height: 150%;
+    font-size: 14px;
+}
+
+.home-text-inner{
+    padding-left: 4%;
+    padding-right:4%;
+    color: black;
+    margin: 0 auto;
+    width: 75%;
+    border-left:  double #7c7c7c;
+    border-right:  double #7c7c7c;
+}
+
+.home-text-inner p{
+     font-family: sans-serif;
+    line-height: 150%;
+    font-size: 14px;
+}
+
+span{
+    text-align: center;
+    font-family: serif;
+    font-weight:bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+.banner{
+    
+    margin: 0 auto;
+    height: 8%;
+    background-color: #949ed0;
+    width: 110%;
+    margin-left: -7%;
+    box-shadow: 0px 0px 5px #888888;
+    padding: 2%;
+    
+    margin-bottom: 2%;
+}
+
+.banner p{
+    text-align: center;
+}
+
+.book{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.book a img{
+    height: 50%;
+    width: auto;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.book-description{
+    width: 50%;
+    float: right;
+    color: black;
+}
+
+.book-description p{
+    padding-left: 3%;
+}
+
+.book-description h2{
+    padding-left: 3%;
+    font-family: 'Butterfly Kids','cursive' !important;
+    font-size: 40px;
+}
+
+.blog-head{
+	width: 100%;
+}
+
+/*div around nav*/
+
+.blog-nav{
+	padding-left:0px;
+    width:100%;
+    text-align:center;
+    margin-top: 1%;
+}
+
+/*nav ol*/
+.menu{
+    padding-left: 0px;
+}
+
+.blog-nav li {
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    border-left:1px solid #7c7c7c;
+}
+
+.blog-nav li:nth-last-child(1){
+    border-right:1px solid #7c7c7c;
+}
+.blog-nav li a {
+    color: #7c7c7c;
+    
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+.blog-nav li a:hover{
+	text-decoration: none;
+    color: #f0c076;
+}
+
+.header{
+	clear:both;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    padding-top:5%;
+}
+
+
+.content{
+    display:block;
+    width: 70%;
+    height: auto !important;
+    float: left;
+    margin-left:15%;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.blog-text{
+    width:70%;
+    margin-left: 2%;
+    float:left;
+
+}
+
+.blog-post-title{
+    margin-top: 2%;
+}
+
+.blog-post{
+    padding: 2%;
+}
+
+.blog-post p{
+    font-family: sans-serif;
+    line-height: 150%;
+    font-size: 14px;
+}
+
+
+h1{
+    font-family: 'Butterfly Kids','cursive';
+    float: left;
+    font-size: 70px;
+    font-weight: lighter;
+    margin-top: 130px;
+    margin-left: 3%;
+    color: #7c7c7c;
+}
+
+h2{
+    font-family: sans-serif;
+}
+
+h4{
+    color: #7c7c7c;
+}
+
+.text{
+	clear:both;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.extra{
+    position: relative;
+    height: 150px;
+    width:auto;
+    float: right;
+    margin-top: 125px;
+    margin-right: 5%;
+
+}
+
+.placeholder{
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-right: 3%;
+}
+
+
+
+.page{
+	width: 100%;
+	height: auto;
+    background-color: #eaeae4;
+}
+
+.blog-post-title{
+	font-family: 'Butterfly Kids','cursive';
+    font-size: 70px;
+    font-weight: lighter;
+    color: #7c7c7c;
+    margin-bottom: 0px;
+ 
+}
+
+
+.custom-logo{
+	height: 100px;
+	width: auto;
+	float: left;
+	margin-top: 5%;
+}
+
+.blog-post{
+	float: left;
+    border-bottom: 1px solid #dbdbd9;
+}
+
+.my-sidebar{
+	width: 16%;
+	float: right;
+    /*margin-left: 1%;*/
+    margin-right: 2%;
+    border-left: 1px solid #dbdbd9;
+    padding: 3%;
+    height: 100%;
+}
+
+.blog-sidebar{
+	clear: right;
+	float:left;
+	margin-top: 5%;
+	margin-right: 3%;
+	
+}
+
+ol{
+    list-style-type: none;
+    padding-left:0px;
+}
+
+h4{
+    font-family: sans-serif;
+}
+
+.sidebar-module{
+	padding: 0px;
+	margin:0px;
+}
+
+.sidebar-content{
+    clear: both;
+    width: 100%;
+    padding-top: 10%;
+}
+
+.list-unstyled li a{
+	color:#f7a22c;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.blog-footer{
+	clear: both;
+}
+
+.the-logo img{
+	float: left;
+	height: 100px;
+	width: auto;
+	margin-top: 5%;
+
+}
+.mbm-book-grid-title-link{
+    font-family: sans-serif;
+    color: #7c7c7c;
+    font-weight: normal;
+    text-decoration: none;
+}
